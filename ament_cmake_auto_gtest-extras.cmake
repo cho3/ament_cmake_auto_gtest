@@ -18,3 +18,4 @@ find_package(ament_cmake_auto QUIET REQUIRED)
 find_package(ament_cmake_gtest QUIET REQUIRED)
 
 include("${ament_cmake_auto_gtest_DIR}/ament_auto_add_gtest.cmake")
+include("${ament_cmake_auto_gtest_DIR}/ament_auto_add_gmock.cmake")
